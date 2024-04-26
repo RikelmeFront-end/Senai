@@ -7,7 +7,7 @@ h2{
     color: azure;
    max-width: 500px; /* Largura maxima */
     height: 20px; /* Altura */
-   margin: 0 auto; /* 0 -> Altura | auto -> Largura */
+   margin: 25px auto; /* 0 -> Altura | auto -> Largura */
    display: block; /* Converte tag de texto em estrutura de div */
    text-decoration: none;
    font-size: 25px;

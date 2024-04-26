@@ -1,5 +1,17 @@
+h2{ 
+   text-align: center;
+}
+
 .botao {
-    width: 100px;
-    height: 100px;
-   margin: 125px 20px 0 20px; 
+    background-color: aqua; /* Cor de fundo */
+    color: azure;
+   max-width: 500px; /* Largura maxima */
+    height: 20px; /* Altura */
+   margin: 0 auto; /* 0 -> Altura | auto -> Largura */
+   display: block; /* Converte tag de texto em estrutura de div */
+   text-decoration: none;
+   font-size: 25px;
+   text-align: center;
+   padding: 20px 0;
+   border-radius: 15px;
 }

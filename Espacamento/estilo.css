@@ -18,7 +18,7 @@
 .container{
     max-width: 1024px;
     margin: 0 auto;
-    display: flex;
+    display: flex;  
 }
 /*Configuraçao menor que 1024px de largura */
 @media screen and (max-width:1024px) {

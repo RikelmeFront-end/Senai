@@ -21,7 +21,6 @@
     width: 200px;
 }
 .botao{
-    display: flex;
     background-color: white;
     padding: 10px 30px;
     text-decoration: none;
@@ -32,6 +31,21 @@
     margin: 10px auto;
     border-radius: 5px;
 }
+.botao:hover{
+     color: blue;
+    background-color: black;
+}
+.box:hover {
+    background-color:grey;
+    .botao {
+        background: red;
+    }
+    img{
+        display: none;
+    }
+    align-content: end;
+}
+
 .box p{
     margin: 10px 25px 25px 8px;
 }

@@ -31,19 +31,16 @@
     margin: 10px auto;
     border-radius: 5px;
 }
-.botao:hover{
-     color: blue;
-    background-color: black;
-}
-.box:hover {
+.box:hover { /* adicionar responsividade ao passar o mouse em cima */
     background-color:grey;
+    transition: 1s; /* adicionar tempo de carregamento da ação */
     .botao {
         background: red;
     }
     img{
-        display: none;
+        width: 100%;
+        transition: 1s;
     }
-    align-content: end;
 }
 
 .box p{
